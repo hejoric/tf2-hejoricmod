@@ -1,47 +1,71 @@
 # HejoricMod
 
-HejoricMod is my personal fork of the [Source SDK 2013 Community Edition](https://github.com/Nbc66/source-sdk-2013-ce).  
-This project is focused on learning C++, exploring the Source engine, and experimenting with custom Team Fortress 2–style mods.  
-
-The goal of HejoricMod is to create a lightweight, fun, and educational codebase that builds directly from the stable **master** branch of Source SDK 2013 CE.
+🔥 A Team Fortress 2–inspired multiplayer mod built on [Source SDK 2013 Community Edition](https://github.com/Nbc66/source-sdk-2013-ce).  
+This project is part learning experiment, part creative playground — a chance to dive into Source engine internals, custom gameplay mechanics, and multiplayer networking in C++.
 
 ---
 
-## Info
-
-- Based on **Source SDK 2013 CE (Community Edition)** by @Nbc66 & @GamerDude27.  
-- Clean, bloat-free foundation for Source modding.  
-- Ideal for learning C++ game development and experimenting with new gameplay ideas.  
-
----
-
-## Requirements
-
-To build this project, install [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) and make sure the following components are checked during installation:
-
-- **MSVC v143** - VS 2022 C++ x64/x86 build tools  
-- **C++ MFC Library** for latest v143 build tools (x86 and x64)  
-- **Windows 11 SDK (10.0.22000.0)**  
-
-> ⚠️ Tested with Visual Studio 2022 (latest version as of July 2023).
+## 🎮 Goals
+- Learn and modify a large-scale C++ codebase (Source SDK)
+- Experiment with new gameplay features (custom weapons, movement tweaks, balance changes)
+- Modernize parts of the HUD/UI
+- Explore multiplayer networking logic
+- Build a unique, personal take on TF2-inspired gameplay
 
 ---
 
-## Contribution
-
-This mod is primarily for personal learning, but if you’d like to give feedback or ideas, feel free to open an issue or discussion.  
-Pull requests are welcome if you’d like to help improve HejoricMod.
-
----
-
-## Credits
-
-- [Source SDK 2013 CE](https://github.com/Nbc66/source-sdk-2013-ce) by @Nbc66 & @GamerDude27  
-- Community contributors: Momentum Mod, Brae, Anthonypython, TF2Vintage, Deathreus, Dio  
+## 🛠 Requirements
+- Windows 10/11
+- Visual Studio 2022 (v143 toolset supported by CE)
+- Source SDK Base 2013 Multiplayer (installed from Steam)
 
 ---
 
-## Ending Notes
+## 🚀 Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/hejoric/hejoricmod.git --recursive
+2. Open mp/src/game.sln in Visual Studio 2022
 
-Thanks for checking out **HejoricMod**!  
-This project is mainly an educational dive into Source engine modding, with the long-term goal of building cool and lightweight TF2-inspired mods.
+3. Build the client and server projects
+
+4. Run with:
+
+      hl2.exe -game hejoricmod
+
+📂 Project Structure
+hejoricmod/
+├── mp/        # Multiplayer source code
+├── sp/        # Singleplayer source (unused for now)
+├── game/      # Configs, assets, HUD files
+└── README.md
+
+📌 Roadmap
+
+✅ Compile a working multiplayer mod baseline
+
+🔧 Add experimental weapon mechanics
+
+🖥️ Implement new HUD features
+
+🏃 Test custom movement abilities
+
+🎉 Playtest with friends
+
+💼 Career Impact
+
+This project demonstrates:
+
+Strong C++ and systems programming skills
+
+Game engine modification and debugging experience
+
+Multiplayer networking knowledge
+
+Creativity in game design
+
+📧 Contact
+
+Jose Herrera – hejoric@outlook.com
+
+Project Link: https://github.com/hejoric/hejoricmod
