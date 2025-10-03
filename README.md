@@ -1,9 +1,9 @@
-# TF2-JoseMod
+# HejoricMod
 
-TF2-JoseMod is my personal fork of the [Source SDK 2013 Community Edition](https://github.com/Nbc66/source-sdk-2013-ce).  
+HejoricMod is my personal fork of the [Source SDK 2013 Community Edition](https://github.com/Nbc66/source-sdk-2013-ce).  
 This project is focused on learning C++, exploring the Source engine, and experimenting with custom Team Fortress 2–style mods.  
 
-The goal of TF2-JoseMod is to create a lightweight, fun, and educational codebase that builds directly from the stable **master** branch of Source SDK 2013 CE.
+The goal of HejoricMod is to create a lightweight, fun, and educational codebase that builds directly from the stable **master** branch of Source SDK 2013 CE.
 
 ---
 
@@ -30,7 +30,7 @@ To build this project, install [Visual Studio 2022](https://visualstudio.microso
 ## Contribution
 
 This mod is primarily for personal learning, but if you’d like to give feedback or ideas, feel free to open an issue or discussion.  
-Pull requests are welcome if you’d like to help improve TF2-JoseMod.
+Pull requests are welcome if you’d like to help improve HejoricMod.
 
 ---
 
@@ -43,5 +43,5 @@ Pull requests are welcome if you’d like to help improve TF2-JoseMod.
 
 ## Ending Notes
 
-Thanks for checking out **TF2-JoseMod**!  
+Thanks for checking out **HejoricMod**!  
 This project is mainly an educational dive into Source engine modding, with the long-term goal of building cool and lightweight TF2-inspired mods.
